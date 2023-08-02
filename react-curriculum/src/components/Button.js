@@ -12,9 +12,9 @@ const Button = () => {
   }
   return (
     <div className="flex justify-center">
-      <button className="rounded-full space-x-4 bg-pink-500" onClick={handleClick}>submit</button>
-      <button className="rounded-full space-x-4 bg-green-500" onClick={handleClickAgain}>edit</button>
-      <button className="rounded-full space-x-4 bg-yellow-500" onClick={handleClickRepete}>delete</button>
+      <button className="rounded-full space-x-5 bg-pink-500" onClick={handleClick}>submit</button>
+      <button className="rounded-full space-x-5 bg-green-500" onClick={handleClickAgain}>edit</button>
+      <button className="rounded-full space-x-5 bg-yellow-500" onClick={handleClickRepete}>delete</button>
     </div>
   )
 }
