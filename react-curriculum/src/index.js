@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 const App = () => {
 
   const handleClick = () => {
-    alert("submit!")
+    alert("submit!!")
   }
   const handleClickAgain = () => {
-    alert("edit!")
+    alert("edit!!")
   }
   const handleClickRepete = () => {
-    alert("delete!")
+    alert("delete!!")
   }
 
   return (
